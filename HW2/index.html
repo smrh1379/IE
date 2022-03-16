@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>html-css-hw</title>
+</head>
+<body>
+    <div >
+    <div>
+        <nav class="navbar">
+            <img class= "logo" src="assets/sbu-logo.png" alt="LOGO">
+                <ul class="list-nav">
+                <label class="bars" for="side-menu"><i class="fa-solid fa-bars"></i></label>
+                <li><a href="#">Home</a></li>
+                <li><a class="active" href="index.html">Contact</a></li>
+                <li><a href="#">Faculties</a></li>
+                <li><a href="#" class="btn">Sign in</a></li>
+                </ul>
+
+        </nav>
+    </div>
+    <input class="checkbox" type="checkbox" id="side-menu"/>
+    <div class="drop-down">
+        <div>
+            <ul class="list-drop">
+                <div><li><a href="#">Home</a></li></div>    
+                <div><li><a class="active" href="index.html">Contact</a></li></div>
+                <div><li><a href="#">Faculties</a></li></div>
+                <div><li><a href="#" class="btn">Sign in</a></li></div>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="main-body">
+        <div class="left-card">
+            <section>
+                <h1 >Contact Us</h1>
+                <div class="address">
+                    <img  src="assets/location-logo.png" alt="LOCATION" >
+                    <p> 
+                        shahid beheshti university
+                        ,<br>shahid shahriari square
+                        ,evin,<br>tehran,iran
+                    </p>
+                </div>
+                <div class="mail" >
+                    <img src="assets/email-logo.png" alt="MAIL">
+                    <p>
+                        int.education@sbu.ac.ir
+                    </p>
+                </div>
+                <div class="phonecall" >
+                    <img src="assets/phone-logo.png" alt="PHONENUM">
+                    <p>
+                        (+9821) 29902761<br>(+9821) 22431585
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class="right-card">
+            <form>
+                <img src="assets/send.png" alt="send_logo"><br>
+                <input class="name" type="text" id="name" name="name" placeholder="Name"></br>
+                <input class="phonenumber" type="text" id="pnumber" name="phonenumber" placeholder="Phone Number"></br>
+                <input class="sometext" type="text" id="text" name="text" placeholder="Some Text">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

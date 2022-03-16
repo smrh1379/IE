@@ -1,0 +1,393 @@
+:root {
+  --white: white;
+  --blue: rgb(67, 140, 223);
+  --black: rgb(0, 0, 0);
+  --yellow: #f1b717;
+  --grey: rgb(63, 63, 63);
+  --orange: #ff8800;
+}
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-image: url("assets/pic.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center ;
+}
+
+.navbar{
+  flex-direction: row;
+  display:flex;
+  cursor:context-menu;
+  background-color: var(--white);
+  margin: 50px 50px;
+  margin-bottom: 10px;
+  border-style: outset; 
+  border: solid transparent;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 100px;
+}
+@media only screen and (min-width: 720px) { 
+  
+  .drop-down{
+    display: none;
+    visibility: hidden;
+    background-color:aqua;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 50px 50px;
+    }
+  .bars {
+    display: none;
+    position: absolute;
+    top: 78px;
+    right: 65px;
+    font-size: 50px;
+    color: #f1b717;
+  }
+  .navbar ul li{
+    list-style-type: none;
+    display: inline-flex;
+  }
+  .right-card{
+    background: rgba(172, 172, 172, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-style: outset;
+    border-color: transparent;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+      border-radius: 30px;
+      position: relative;
+      display: flex;
+      width: 600px;
+      height: 550px;
+    }
+    .left-card {
+      margin: 10px 20px 10px 10px;
+      background: rgba(172, 172, 172, 0.27);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border-style: outset;
+      border-color: transparent;
+      backdrop-filter: blur(6px);
+        border-radius: 30px;
+        position: relative;
+        display: flex;
+        width: 600px;
+        height: 550px;
+      }
+      input[type="text"]:focus {
+        width: 500px;
+       }
+       .drop-down .list-drop{
+        display: none;
+        background-color: #f1b717;
+        padding: 50px 50px;
+        align-items: center;
+        list-style: none;
+      }
+      .checkbox:checked{u}
+  }
+
+  @media only screen and (max-width: 720px) { 
+    .drop-down{
+      background-color:crimson;
+      display: none;
+      transition: visibility 0s, opacity 0.5s linear;
+      visibility: hidden;
+      background-color: var(--white)  ;
+      border-radius: 20px;
+      text-align: center;
+      width: 400px;
+      min-height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      padding: 50px 50px;
+      }
+      .drop-down .list-drop{
+        padding: 50px 50px;
+        align-items: center;
+        list-style: none;
+      }
+      
+      .drop-down ul li a{
+        display:inline-flex;
+        color: var(--black);
+        margin-bottom: 5px;
+        text-decoration:none;
+        font-size: 25px;
+        transition: 0.4s;
+        cursor:pointer;
+      }
+      .drop-down ul li a:hover{
+        opacity: 0.5;
+        transition: 0.4s;
+      }
+      .drop-down .list-drop .btn{
+        background-color: var(--black);
+        color: var(--white);
+        text-decoration: none;
+        padding: 5px 5px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        }
+
+  .navbar ul li{
+    list-style-type: none;
+    display: none;
+  }
+  .bars {
+
+    position: absolute;
+    top: 78px;
+    right: 65px;
+    font-size: 50px;
+    color: #f1b717;
+  }
+  .right-card{
+    background: rgba(172, 172, 172, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-style: outset;
+    border-color: transparent;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+      border-radius: 30px;
+      position: relative;
+      display: flex;
+      width: 420px;
+      height: 550px;
+    }
+    .left-card {
+      margin: 10px 20px 10px 10px;
+      background: rgba(172, 172, 172, 0.27);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border-style: outset;
+      border-color: transparent;
+      backdrop-filter: blur(6px);
+        border-radius: 30px;
+        position: relative;
+        display: flex;
+        width: 420px;
+        height: 550px;
+      }
+      input[type="text"]:focus {
+        width: 330px;
+       }
+
+      .checkbox:checked ~ .drop-down{
+        display: block;
+        visibility:visible;
+        transition:  0.4s ;
+        transition: visibility 0s, opacity 0.5s linear;
+      }
+  }
+  .checkbox{
+    display: none;
+  }
+.navbar ul li a{
+  margin-left: 10px;
+  color: var(--black);
+  text-decoration:none;
+  font-size: 25px;
+  transition: 0.4s;
+  cursor:pointer;
+}
+.navbar ul li a:hover{
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.navbar .active{
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 5px solid #f1b717;
+  text-decoration: none;
+}
+.navbar .logo{
+  position: absolute;
+  left:65px;
+  bottom: auto;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.navbar .btn{
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  }
+
+
+
+
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+
+.right-card .name{
+  cursor:text;
+  margin-top: 100px;
+  }
+  .right-card .phonenumber{
+    cursor:text;
+    margin-top: 10px;
+  }
+  .right-card .sometext{
+    cursor:text;
+    padding-top: 0px;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: transparent
+  }
+  .right-card img {
+    position: absolute;
+    right: 25px;
+    top:25px;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+
+
+.left-card h1{
+  position:absolute;
+  top: 100px;
+  left:30px;
+  margin: 10px 10px;
+  font-size: 40px;
+
+}
+.address{
+  transition: transform 0.4s;
+  cursor: text;
+}
+.mail{
+  transition: transform 0.4s;
+  cursor: text;
+}
+.phonecall{
+  transition: transform 0.4s;
+  cursor: text;
+}
+.address img{
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  filter: invert(100%) ;
+  top: 200px;
+  left: 30px;
+}
+.address:hover{
+  transform:scale(1.02,1.02);
+  transition: transform 0.4s;
+}
+.mail:hover{
+  transform:scale(1.02,1.02);
+  transition: transform 0.4s;
+}
+.phonecall:hover{ 
+  transform:scale(1.02,1.02);
+  transition: transform 0.4s;
+} 
+.mail img{
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  filter: invert(100%) ;
+  top: 300px;
+  left: 30px;
+}
+
+.phonecall img{
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  filter: invert(100%) ;
+  top: 400px;
+  left: 30px;
+}
+.address p{
+  width: 300px ;
+ text-transform: capitalize;
+ position: absolute;
+ top: 200px;
+ left:130px;
+ font-size: 20px;
+}.mail p{
+  width: 300px ;
+  position: absolute;
+  top: 315px;
+  left:130px;
+  font-size: 20px;
+ }
+.phonecall p{
+  width:300px ;
+  position: absolute;
+  top: 405px;
+  left:130px;
+  font-size: 20px;
+ }
+
+input[type="text"] {
+position:relative;
+width: 200px;
+padding:15px 20px;
+margin-left: 40px;
+border-color:  var(--black);
+border-width: 3px;
+border-radius: 40px;
+transition: width 0.4s ease-in-out;
+background-color: transparent;
+outline-style:none;
+}
+
+input[type="submit"] {
+  padding:18px 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #f1b717;
+  border-color: transparent;
+  border-radius: 30px;
+  border-style: outset;
+}
+
+input[type="submit"]:hover {
+ background-color: var(--blue);
+}
+::placeholder {
+  color: var(--black);
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
