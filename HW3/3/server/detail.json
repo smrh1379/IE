@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "name": "آذربایجان شرقی",
+    "center": "تبریز",
+    "established_year": "۱۳۱۶",
+    "area": "۴۵,۶۵۰",
+    "population": "۳,۹۰۹,۶۵۲"
+  },
+  {
+    "id": 2,
+    "name": "آذربایجان غربی",
+    "center": "ارومیه",
+    "established_year": "۱۳۱۶",
+    "area": "۳۷,۴۱۱",
+    "population": "۳,۲۶۵,۲۱۹"
+  },
+  {
+    "id": 3,
+    "name": "اردبیل",
+    "center": "اردبیل",
+    "established_year": "۱۳۷۲",
+    "area": "۱۷,۸۰۰",
+    "population": "۱,۲۷۰,۴۲۰"
+  },
+  {
+    "id": 4,
+    "name": "اصفهان",
+    "center": "اصفهان",
+    "established_year": "۱۳۱۶",
+    "area": "۱۰۷,۰۲۹",
+    "population": "۵,۱۲۰,۸۵۰"
+  },
+  {
+    "id": 5,
+    "name": "البرز",
+    "center": "کرج",
+    "established_year": "۱۳۸۹",
+    "area": "۵,۸۳۳",
+    "population": "۲,۷۱۲,۴۰۰"
+  },
+  {
+    "id": 6,
+    "name": "ایلام",
+    "center": "ایلام",
+    "established_year": "۱۳۵۳",
+    "area": "۲۰,۱۳۳",
+    "population": "۵۸۰,۱۵۸"
+  },
+  {
+    "id": 7,
+    "name": "بوشهر",
+    "center": "بوشهر",
+    "established_year": "۱۳۵۲",
+    "area": "۲۲,۷۴۳",
+    "population": "۱,۱۶۳,۴۰۰"
+  },
+  {
+    "id": 8,
+    "name": "تهران",
+    "center": "تهران",
+    "established_year": "۱۳۵۷",
+    "area": "۱۲,۹۸۱",
+    "population": "۱۳,۲۶۷,۶۳۷"
+  },
+  {
+    "id": 9,
+    "name": "چهارمحال و بختیاری",
+    "center": "شهرکرد",
+    "established_year": "۱۳۵۲",
+    "area": "۱۶,۳۳۲",
+    "population": "۹۴۷,۷۶۳"
+  },
+  {
+    "id": 10,
+    "name": "خراسان جنوبی",
+    "center": "بیرجند",
+    "established_year": "۱۳۸۳",
+    "area": "۱۵۱,۱۹۳",
+    "population": "۷۶۸,۸۹۸"
+  },
+  {
+    "id": 11,
+    "name": "خراسان رضوی",
+    "center": "مشهد",
+    "established_year": "۱۳۱۶",
+    "area": "۱۱۸,۸۵۴",
+    "population": "۶,۴۳۴,۵۰۱"
+  },
+  {
+    "id": 12,
+    "name": "خراسان شمالی",
+    "center": "بجنورد",
+    "established_year": "۱۳۸۳",
+    "area": "۲۸,۴۳۴",
+    "population": "۸۶۳,۰۹۲"
+  },
+  {
+    "id": 13,
+    "name": "خوزستان",
+    "center": "اهواز",
+    "established_year": "۱۳۱۶",
+    "area": "۶۴,۰۵۵",
+    "population": "۴,۷۱۰,۵۰۹"
+  },
+  {
+    "id": 14,
+    "name": "زنجان",
+    "center": "زنجان",
+    "established_year": "۱۳۵۲",
+    "area": "۲۱,۷۷۳",
+    "population": "۱,۰۵۷,۴۶۱"
+  },
+  {
+    "id": 15,
+    "name": "سمنان",
+    "center": "سمنان",
+    "established_year": "۱۳۵۵",
+    "area": "۹۷,۴۹۱",
+    "population": "۷۰۲,۳۶۰"
+  },
+  {
+    "id": 16,
+    "name": "سیستان و بلوچستان",
+    "center": "زاهدان",
+    "established_year": "۱۳۳۶",
+    "area": "۱۸۰,۷۲۶",
+    "population": "۲,۷۷۵,۰۱۴"
+  },
+  {
+    "id": 17,
+    "name": "فارس",
+    "center": "شیراز",
+    "established_year": "۱۳۱۶",
+    "area": "۱۲۲,۶۰۸",
+    "population": "۴,۸۵۱,۲۷۴"
+  },
+  {
+    "id": 18,
+    "name": "قزوین",
+    "center": "قزوین",
+    "established_year": "۱۳۷۶",
+    "area": "۱۵,۵۶۷",
+    "population": "۱,۲۷۳,۷۶۱"
+  },
+  {
+    "id": 19,
+    "name": "قم",
+    "center": "قم",
+    "established_year": "۱۳۷۵",
+    "area": "۱۱,۵۲۶",
+    "population": "۱,۲۹۲,۲۸۳"
+  },
+  {
+    "id": 20,
+    "name": "کردستان",
+    "center": "سنندج",
+    "established_year": "۱۳۳۷",
+    "area": "۲۹,۱۳۷",
+    "population": "۱,۶۰۳,۰۱۱"
+  },
+  {
+    "id": 21,
+    "name": "کرمان",
+    "center": "کرمان",
+    "established_year": "۱۳۱۶",
+    "area": "۱۸۱,۷۸۵",
+    "population": "۳,۱۶۴,۷۱۸"
+  },
+  {
+    "id": 22,
+    "name": "کرمانشاه",
+    "center": "کرمانشاه",
+    "established_year": "۱۳۱۶",
+    "area": "۲۴,۹۹۸",
+    "population": "۱,۹۵۲,۴۳۴"
+  },
+  {
+    "id": 23,
+    "name": "کهگیلویه و بویراحمد",
+    "center": "یاسوج",
+    "established_year": "۱۳۵۵",
+    "area": "۱۵,۵۰۴",
+    "population": "۷۱۳,۰۵۲"
+  },
+  {
+    "id": 24,
+    "name": "گلستان",
+    "center": "گرگان",
+    "established_year": "۱۳۷۶",
+    "area": "۲۰,۳۶۷",
+    "population": "۱,۸۶۸,۸۱۹"
+  },
+  {
+    "id": 25,
+    "name": "گیلان",
+    "center": "رشت",
+    "established_year": "۱۳۱۶",
+    "area": "۱۴,۰۴۲",
+    "population": "۲,۵۳۰,۶۹۶"
+  },
+  {
+    "id": 26,
+    "name": "لرستان",
+    "center": "خرم‌آباد",
+    "established_year": "۱۳۵۲",
+    "area": "۲۸,۲۹۴",
+    "population": "۱,۷۶۰,۶۴۹"
+  },
+  {
+    "id": 27,
+    "name": "مازندران",
+    "center": "ساری",
+    "established_year": "۱۳۱۶",
+    "area": "۲۳,۸۴۲",
+    "population": "۳,۲۸۳,۵۸۲"
+  },
+  {
+    "id": 28,
+    "name": "مرکزی",
+    "center": "اراک",
+    "established_year": "۱۳۲۶",
+    "area": "۲۹,۱۲۷",
+    "population": "۱,۴۲۹,۴۷۵"
+  },
+  {
+    "id": 29,
+    "name": "هرمزگان",
+    "center": "بندرعباس",
+    "established_year": "۱۳۴۶",
+    "area": "۷۰,۶۹۷",
+    "population": "۱,۷۷۶,۴۱۵"
+  },
+  {
+    "id": 30,
+    "name": "همدان",
+    "center": "همدان",
+    "established_year": "۱۳۵۲",
+    "area": "۱۹,۳۶۸",
+    "population": "۱,۷۳۸,۲۳۴"
+  },
+  {
+    "id": 31,
+    "name": "یزد",
+    "center": "یزد",
+    "established_year": "۱۳۵۲",
+    "area": "۷۳,۴۷۷",
+    "population": "۱,۱۳۸,۵۳۳"
+  }
+]

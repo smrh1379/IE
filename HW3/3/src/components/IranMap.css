@@ -1,0 +1,21 @@
+.map-container {
+    position: relative;
+    border-radius: 20px;
+    width: 550px;
+    height: 491px;
+    border: 1px solid #aaa;
+    background-image: url('../assets/images/raw_map.svg');
+    background-size: 100% 100%;
+    box-shadow: -1px 1px 5px #aaa;
+}
+
+.city-name {
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+}
+
+.city-name:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
