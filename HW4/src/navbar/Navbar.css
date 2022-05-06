@@ -1,0 +1,102 @@
+.Navbar {
+  flex-direction: row;
+  display: flex;
+  cursor: context-menu;
+  background-color: black;
+  border-style: outset;
+  border: solid transparent;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+.Navbar__tabs {
+  color: white;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.Navbar__tabs li {
+  margin-top: 6px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Navbar__button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 1px;
+  background-color: #2d9cdb;
+  margin-left: 150px;
+  height: 35px;
+  width: 100px;
+}
+.Navbar__button__cart__logo {
+  height: 20px;
+  width: 20px;
+  padding-left: 6px;
+}
+
+.Navbar__button__cart__div {
+  color: white;
+  width: 20px;
+  padding-left: 5px;
+  margin-left: 15px;
+}
+.Navbar__cart__Qty {
+  justify-self: center;
+  position: relative;
+  border-radius: 20px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  width: 15px;
+  left: 10px;
+  bottom: 10px;
+  height: 20px;
+  padding: 3px 7px;
+  margin-left: 0px;
+}
+.Navbar__cart__Qty__zero {
+  visibility: hidden;
+  justify-self: center;
+  position: relative;
+  border-radius: 20px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  width: 15px;
+  left: 10px;
+  bottom: 10px;
+  height: 20px;
+  padding: 3px 5px;
+  margin-left: 0px;
+}
+.Navbar__link {
+  color: white;
+  text-decoration: none;
+}
+.Navbar__button__link {
+  color: white;
+  text-decoration: none;
+}
+.Navbar__sort__label {
+  color: white;
+  padding-right: 10px;
+}
+.Navbar__sort {
+  background-color: #2c3e50;
+  outline: 0;
+  border: 0;
+  padding: 5px 10px;
+  box-shadow: none;
+  color: white;
+  border: 0;
+  height: 30px;
+  border-color: transparent;
+  border-radius: 5px;
+}

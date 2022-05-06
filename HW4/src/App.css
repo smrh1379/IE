@@ -1,0 +1,18 @@
+body {
+  background-color: #fafafa;
+}
+.Page {
+  position: relative;
+  right: 100px;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.card__detail {
+  display: flex;
+  justify-content: center;
+}
