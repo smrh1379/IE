@@ -1,0 +1,105 @@
+.card__detail__Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card__detail__img {
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+}
+
+.button__Atc {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #27ae60;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 1px;
+  height: 3em;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
+.button__Mi {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #2d9cdb;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 1px;
+  height: 3em;
+  width: 50%;
+}
+.card__detail__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+}
+.card__detail__price {
+  height: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+}
+.detail_p1 {
+  position: relative;
+  bottom: 15px;
+  height: 10px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  width: 300px;
+}
+.card__detail__modal {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  width: 450px;
+  padding: 15px 20px;
+  height: 250px;
+  background-color: white;
+}
+.card__detail__modal__button {
+  position: relative;
+  background-color: #e74c3c;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  top: 100px;
+  left: 10px;
+  height: 2.5em;
+  width: 8em;
+  align-self: flex-end;
+}
+.card__detail__img_rating__container {
+  display: flex;
+  flex-direction: column;
+}
+.rate__true {
+  visibility: visible;
+  position: relative;
+  bottom: 35px;
+}
+.rate__false {
+  visibility: hidden;
+}
+.card__detail__rating {
+  position: relative;
+  bottom: 15px;
+}
